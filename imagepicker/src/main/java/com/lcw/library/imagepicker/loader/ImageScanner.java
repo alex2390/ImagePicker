@@ -59,9 +59,9 @@ public class ImageScanner extends AbsMediaScanner<MediaFile> {
     protected String[] getSelectionArgs() {
         if (ConfigManager.getInstance().isFilterGif()) {
             //过滤GIF
-            return new String[]{"image/jpeg", "image/png"};
+            return new String[]{"image/jpeg","image/jpg"};
         }
-        return new String[]{"image/jpeg", "image/png", "image/gif"};
+        return new String[]{ "image/jpeg","image/jpg", "image/gif"};
     }
 
     @Override

@@ -12,7 +12,6 @@ import android.support.v4.content.ContextCompat;
  * Email: lichenwei.me@foxmail.com
  */
 public class PermissionUtil {
-
     /**
      * 权限检查
      *

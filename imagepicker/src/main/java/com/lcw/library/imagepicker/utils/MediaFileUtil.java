@@ -42,6 +42,8 @@ public class MediaFileUtil {
 
     // Image file types
     public static final int FILE_TYPE_JPEG = 31;
+    public static final int FILE_TYPE_JPG = 44;
+
     public static final int FILE_TYPE_GIF = 32;
     public static final int FILE_TYPE_PNG = 33;
     public static final int FILE_TYPE_BMP = 34;
@@ -101,7 +103,7 @@ public class MediaFileUtil {
         addFileType("3GPP2", FILE_TYPE_3GPP2, "video/3gpp2");
         addFileType("WMV", FILE_TYPE_WMV, "video/x-ms-wmv");
 
-        addFileType("JPG", FILE_TYPE_JPEG, "image/jpeg");
+        addFileType("JPG", FILE_TYPE_JPG, "image/jpg");
         addFileType("JPEG", FILE_TYPE_JPEG, "image/jpeg");
         addFileType("GIF", FILE_TYPE_GIF, "image/gif");
         addFileType("PNG", FILE_TYPE_PNG, "image/png");
